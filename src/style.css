@@ -41,6 +41,7 @@ a{
 .weather-temperature strong{
     font-size: 60px;
     font-weight: 400;
+    color: #212121;
 }
 
 .weather-temperature .units {
@@ -48,6 +49,14 @@ a{
     font-size: 16px;
     line-height: 19px;
     top: -32px;
+}
+.weather-temperature .active {
+    color: #212121;
+    cursor: default;
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
 }
 
 ul{
