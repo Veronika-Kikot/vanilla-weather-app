@@ -65,10 +65,20 @@ margin: 0;
 padding: 0;
 }
 
+form{
+    max-width: 70%;
+    margin-bottom: 50px;
+}
 .col-9 {
     display: inline;
 }
 
 .col-3{
     text-align: right;
+}
+.col-2{
+    max-width: 80px;
+}
+#current {
+    max-width: 80px;
 }
