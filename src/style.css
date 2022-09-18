@@ -16,7 +16,7 @@ a{
 }
 
 .weather-app-wrapper{
-    max-width: 600px;
+    max-width: 700px;
     margin: 30px auto;
 }
 
@@ -27,15 +27,20 @@ a{
     border: 1px solid rgb(205, 205, 205);
     border-radius: 8px;
 }
-
+.description{
+    display: flex;
+    
+}
+.weather-temperature{
+    margin-right: 20px;
+}
 .weather-temperature img {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .weather-temperature strong{
     font-size: 60px;
     font-weight: 400;
-    line-height: 1;
 }
 
 .weather-temperature .units {
@@ -60,14 +65,10 @@ margin: 0;
 padding: 0;
 }
 
-.col-5 {
-    margin-right: 0;
-}
-
-.col-4{
-    text-align: right;
+.col-9 {
+    display: inline;
 }
 
 .col-3{
-margin-left: 0;
+    text-align: right;
 }
