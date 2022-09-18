@@ -65,9 +65,9 @@ padding: 0;
 }
 
 .col-4{
-    margin-left: 0;
+    text-align: right;
 }
 
 .col-3{
-text-align: right;
+margin-left: 0;
 }
