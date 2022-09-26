@@ -63,11 +63,11 @@ function getForecast(coordinates){
 function displayTemperature(response){
     let temperatureElement = document.querySelector("#temperature");
     celciusTemperature = response.data.main.temp;
-    temperatureElement.innerHTML = Math.round(celciusTemperature);
+    temperatureElement.innerHTML = `${Math.round(celciusTemperature)}°C`;
     let cityELement = document.querySelector("#city");
     cityELement.innerHTML = response.data.name;
-    humidityElement.innerHTML = response.data.main.humidity;
-    windElement.innerHTML = Math.round(response.data.wind.speed);
+    humidityElement.innerHTML = `Humidity: ${response.data.main.humidity}%`;
+    windElement.innerHTML = `Wind: ${Math.round(response.data.wind.speed)}km/h`;
     descriptionElement.innerHTML = response.data.weather[0].main;
     dateElement.innerHTML = formatDate(response.data.dt*1000);
     let iconName = response.data.weather[0].icon;

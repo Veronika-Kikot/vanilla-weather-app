@@ -125,6 +125,7 @@ form{
 }
 #current {
     max-width: 80px;
+    margin-left: 15px;
 }
 .weather-forecast{
     margin-top: 30px;
